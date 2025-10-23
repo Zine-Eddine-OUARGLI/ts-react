@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
 // Step 1: Define the state type interface
 interface CounterState {
