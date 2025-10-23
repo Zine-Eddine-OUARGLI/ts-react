@@ -7,6 +7,7 @@ interface CounterState {
 
 // Step 2: Define the component as a class extending React.Component
 // Since this component has no props, we can use {} or undefined for props type.
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 class Counter extends Component<{}, CounterState> {
   // Step 3: Initialize state with a default value
   state: CounterState = {
